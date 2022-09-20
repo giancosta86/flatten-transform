@@ -24,6 +24,8 @@ or
 yarn add @giancosta86/flatten-transform
 ```
 
+The public API entirely resides in the root package index, so you shouldn't reference specific modules.
+
 ## Usage
 
 Just create a new instance of `FlattenTransform` and use it in a pipeline, or call its standard methods like `.write()` `.end()`, `.on()`, ...
